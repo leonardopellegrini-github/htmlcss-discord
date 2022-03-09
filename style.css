@@ -1,0 +1,61 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Poppins;
+}
+.container::after{
+  content: '';
+ display: table;
+ clear: both;
+}
+
+header{
+  background-color: #3161e0;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.sezhead{
+  float: left;
+  width: calc(100% / 3);
+}
+
+.sezhead img{
+  vertical-align: middle;
+}
+
+ol{
+  word-spacing: 8px;
+}
+li{
+  list-style: none;
+  display: inline-block;
+}
+
+li a{
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.sezhead:first-child{
+  text-align: left;
+}
+
+.sezhead:last-child{
+  text-align: right;
+}
