@@ -108,15 +108,16 @@ header{
 
 .bigb{
   border: none;
-  border-radius: 25px;
   color: white;
-  padding: 10px 30px;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 22px 3px 3px 10px;
   cursor: pointer;
   font-weight: 500;
+  border-radius: 28px;
+  font-size: 20px;
+  padding: 10px 35px;
 }
 
 .bianco{
@@ -155,9 +156,10 @@ header{
   width: 30%;
   text-align: left;
 }
-.testo p{
+.testo p, .container p{
   line-height: 1.3;
   padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .container h3{
@@ -180,3 +182,25 @@ header{
 
 
 /* QUARTA SEZIONE */
+
+
+/* QUINTA SEZIONE */
+
+.viola{
+  background-color: #7983F5;
+  color: white;
+}
+
+.fifth h4{
+  font-size: 30px;
+}
+
+.stelle{
+  background-image: url(img/stars.svg);
+  background-size: cover;
+  background-position: top;
+}
+
+.fifth img{
+  margin: -36px;
+}
