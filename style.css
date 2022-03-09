@@ -6,6 +6,9 @@
 
 body{
   font-family: Poppins;
+  content: '';
+  display: table;
+  clear: both;
 }
 
 .container{
@@ -17,11 +20,6 @@ body{
   vertical-align: middle;
 }
 
-.container::after{
-  content: '';
- display: table;
- clear: both;
-}
 
 /* HEADER */
 
@@ -70,6 +68,19 @@ header{
   text-align: right;
 }
 
+.smallb{
+  border: none;
+  border-radius: 25px;
+  color: black;
+  background: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+
 /* JUMBOTRON */
 
 .head{
@@ -94,7 +105,6 @@ header{
 }
 
 .bigb{
-  background-color: #4CAF50;
   border: none;
   border-radius: 25px;
   color: white;
@@ -120,7 +130,34 @@ header{
 
 /* PRIMA SEZIONE */
 
-.container h3{
-  font-size: 48px;
+.immagine, .testo{
+  float: left;
 }
 
+.immagine {
+  width: calc(100% - 30%);
+}
+
+.testo{
+  width: calc(100% - 70%);
+  text-align: left;
+}
+.testo p{
+  line-height: 1.3;
+  padding-top: 15px;
+}
+
+.container h3{
+  font-size: 48px;
+  line-height: 1.3;
+}
+
+.first{
+  margin-top: 100px;
+}
+
+/* SECONDA SEZIONE */
+
+.second{
+  background-color: grey;
+}
