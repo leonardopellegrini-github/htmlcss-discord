@@ -31,7 +31,14 @@ header{
 
 .sezhead{
   float: left;
-  width: calc(100% / 3);
+}
+
+.menu{
+  width: calc(100% - 50%);
+}
+
+.logo, .iscriviti{
+  width: calc(100% - 75%);
 }
 
 .sezhead img{
