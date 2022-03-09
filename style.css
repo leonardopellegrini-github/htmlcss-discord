@@ -204,3 +204,74 @@ header{
 .fifth img{
   margin: -36px;
 }
+
+/* FOOTER */
+
+/* sezione colonne */
+
+footer{
+  background-color: #23272A;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: 75px;
+  color: white;  
+}
+
+footer img{
+  width: 15px;
+}
+.social, .colonna{
+  float: left;
+  text-align: left;
+}
+
+.social{
+  width: 25%;
+  padding-right: 10px;
+}
+
+.colonna{
+  width: calc(70%/4);
+}
+
+footer ol{
+  list-style-type: none;
+
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
+}
+
+.titolo{
+  color: #5865F2;
+}
+
+
+/* ultima sezione */
+
+.ultimologo{
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+
+.ultimologo img{
+  width: 20%;
+}
+
+.ultimobottone{
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+
+hr{
+  border: 1px solid #5865F2;
+}
+
+.social i{
+  font-size: 15px;
+  letter-spacing: 7px;
+}
