@@ -7,18 +7,6 @@
 body{
   font-family: Poppins;
 }
-.container::after{
-  content: '';
- display: table;
- clear: both;
-}
-
-header{
-  background-color: #3161e0;
-  color: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
 
 .container{
   width: 80%;
@@ -27,6 +15,21 @@ header{
   line-height: 50px;
   text-align: center;
   vertical-align: middle;
+}
+
+.container::after{
+  content: '';
+ display: table;
+ clear: both;
+}
+
+/* HEADER */
+
+header{
+  background-color: #255EE9;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .sezhead{
@@ -45,15 +48,15 @@ header{
   vertical-align: middle;
 }
 
-ol{
-  word-spacing: 8px;
+.sezhead ol{
+  word-spacing: 41px;
 }
-li{
+.sezhead li{
   list-style: none;
   display: inline-block;
 }
 
-li a{
+.sezhead li a{
   color: white;
   font-size: 15px;
   text-decoration: none;
@@ -66,3 +69,58 @@ li a{
 .sezhead:last-child{
   text-align: right;
 }
+
+/* JUMBOTRON */
+
+.head{
+  background-image: url(img/jumbo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.container h1{
+  font-size: 53px;
+}
+
+.jumbo{
+  vertical-align: middle;
+  width: 50%;
+  line-height: 1.8;
+  color: white;
+  margin: auto;
+}
+
+.bigb{
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 10px 30px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 22px 3px 3px 10px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.bianco{
+  background-color: white;
+  color: #23272A;
+}
+
+.nero{
+  background-color: #23272A;
+  color: white;
+}
+
+
+/* PRIMA SEZIONE */
+
+.container h3{
+  font-size: 48px;
+}
+
